@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>九九乘法表</title>
+		<script type="text/javascript">
+			//先写 乘法算式；再考虑 输出形式
+			/*
+			 * 1X1
+			 * 1X2  2X2
+			 * 1x3  2X3  3X3
+			 * 
+			 * 
+			 */
+			for (var i=1;i<=9;i++) {
+				for (var j=1;j<=i;j++) {
+					document.write(String(j)+"x"+String(i)+"="+String(i*j));
+					document.write("&nbsp&nbsp&nbsp&nbsp&nbsp");
+				}
+				document.write("<br />");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
